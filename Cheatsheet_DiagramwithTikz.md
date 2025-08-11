@@ -33,3 +33,19 @@
 \end{tikzpicture}
 
 \end{document}
+
+
+\begin{tikzpicture}[ 
+  ball/.style={ 
+    ellipse,                    % Shape of the node will be an ellipse
+    minimum width=3cm,          # Minimum width of the node
+    minimum height=1.5cm,       # Minimum height of the node
+    draw,                       # Draw a border around the node
+    align=center                # Center the text inside the node
+  }, 
+  >=Stealth,                    # Use Stealth arrow tips 
+  node distance=1.5cm and 2cm   # Set default distances between nodes:
+                               # - 1.5cm vertical distance
+                               # - 2cm horizontal distance
+]
+
