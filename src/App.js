@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename={process.env.NODE_ENV === 'production' ? '/wangjuekate.github.io' : ''}>
+    <Router>
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <Header />
         <main className="flex-grow">
