@@ -33,11 +33,11 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4">Categories</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Open Source</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Community Building</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Fundraising</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Technical Leadership</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Startup Strategy</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Open Source</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Community Building</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Fundraising</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Technical Leadership</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Startup Strategy</a></li>
             </ul>
           </div>
 
@@ -45,11 +45,11 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4">Resources</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Investor Database</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Open Source Tools</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Community Templates</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Pitch Deck Guide</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Legal Resources</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Investor Database</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Open Source Tools</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Community Templates</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Pitch Deck Guide</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Legal Resources</a></li>
             </ul>
           </div>
         </div>
